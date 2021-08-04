@@ -1,0 +1,17 @@
+// Primary colors
+$dark-blue: hsl(233, 47%, 7%); // main background
+$dark-desaturated-blue: hsl(244, 38%, 16%); // card background
+$violet: hsl(277, 64%, 61%); // Accent
+
+// Neutral colors
+$white: hsl(0, 0%, 100%); // main heading, stats
+$slightly-transparent-white: hsla(0, 0%, 100%, 0.75); // main paragraph
+$slightly-transparent-white2: hsla(0, 0%, 100%, 0.6); // stats heading
+
+// Typography
+$body-font: "Inter", sans-serif;
+$accent-font: "Lexend Deca", sans-serif;
+
+$base-font-size: 15px;
+
+$desktop-width: 800px;
