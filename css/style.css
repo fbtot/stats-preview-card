@@ -54,8 +54,8 @@ h2 span {
 .card {
   text-align: center;
   background-color: #1b1938;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .text-container {
@@ -117,10 +117,13 @@ h2 span {
   }
 
   .card {
-    flex-direction: row-reverse;
+    grid-auto-flow: column dense;
     text-align: left;
   }
 
+  .card__picture-container {
+    grid-column: 2;
+  }
   /* fine card__picture-container */
   .text-container {
     padding: 5rem;

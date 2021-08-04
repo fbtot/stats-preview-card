@@ -54,8 +54,8 @@ h2 {
 .card {
   text-align: center;
   background-color: $dark-desaturated-blue;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .text-container {

@@ -9,11 +9,12 @@
   }
 
   .card {
-    flex-direction: row-reverse;
+    grid-auto-flow: column dense;
     text-align: left;
   }
 
   .card__picture-container {
+    grid-column: 2;
     source,
     img {
     }
