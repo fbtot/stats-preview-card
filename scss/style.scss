@@ -14,11 +14,18 @@ $accent-font: "Lexend Deca", sans-serif;
 
 $base-font-size: 15px;
 
+$desktop-width: 800px;
+
 /*  
     ----------------------------------------------------- § HTML
 */
 html {
   font-size: $base-font-size;
+}
+
+.m0p0 {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -30,9 +37,10 @@ body {
 }
 
 h2 {
+  @extend .m0p0;
   font-family: $accent-font;
   color: $white;
-  font-size: 2rem;
+  font-size: 1.8rem;
 
   span {
     color: $violet;
@@ -48,6 +56,8 @@ h2 {
   align-items: center; /* Centrato verticalmente */
   justify-content: center; /* Centrato orizzontalmente */
   min-height: 100vh; /* Nel caso, definire l'altezza */
+  box-sizing: border-box;
+  padding: 1rem 0;
 }
 
 .card-container {
@@ -74,10 +84,21 @@ h2 {
   display: none;
 }
 
+.card__text {
+  line-height: 1.7em;
+  margin-bottom: 2.5rem;
+}
+
+.card__meta {
+  margin-bottom: 2em;
+}
+
 .card__meta__stat {
+  @extend .m0p0;
   font-size: 1.6rem;
   color: $white;
   font-weight: bold;
+  margin-bottom: 0.3em;
 }
 
 .card__meta__title {
