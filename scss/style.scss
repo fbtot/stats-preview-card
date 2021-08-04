@@ -31,8 +31,69 @@ body {
 
 h2 {
   font-family: $accent-font;
+  color: $white;
+  font-size: 2rem;
 
   span {
     color: $violet;
+  }
+}
+
+/*  
+    ----------------------------------------------------- § STRUCTURE
+*/
+
+.page {
+  display: flex;
+  align-items: center; /* Centrato verticalmente */
+  justify-content: center; /* Centrato orizzontalmente */
+  min-height: 100vh; /* Nel caso, definire l'altezza */
+}
+
+.card-container {
+  border-radius: 20px;
+  overflow: hidden;
+  display: block;
+  width: 90%;
+}
+
+.card {
+  text-align: center;
+  background-color: $dark-desaturated-blue;
+}
+
+.text-container {
+  padding: 2.5rem;
+}
+
+/*  
+    ----------------------------------------------------- § TYPOGRAPHY
+*/
+
+.page__title {
+  display: none;
+}
+
+.card__meta__stat {
+  font-size: 1.6rem;
+  color: $white;
+  font-weight: bold;
+}
+
+.card__meta__title {
+  text-transform: uppercase;
+  color: $slightly-transparent-white2;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
+
+/*  
+    ----------------------------------------------------- § IMAGES
+*/
+
+.card__picture-container {
+  source,
+  img {
+    width: 100%;
   }
 }

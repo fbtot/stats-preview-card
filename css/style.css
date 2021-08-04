@@ -16,9 +16,68 @@ body {
 
 h2 {
   font-family: "Lexend Deca", sans-serif;
+  color: white;
+  font-size: 2rem;
 }
 h2 span {
   color: #aa5cdb;
+}
+
+/*  
+    ----------------------------------------------------- § STRUCTURE
+*/
+.page {
+  display: flex;
+  align-items: center;
+  /* Centrato verticalmente */
+  justify-content: center;
+  /* Centrato orizzontalmente */
+  min-height: 100vh;
+  /* Nel caso, definire l'altezza */
+}
+
+.card-container {
+  border-radius: 20px;
+  overflow: hidden;
+  display: block;
+  width: 90%;
+}
+
+.card {
+  text-align: center;
+  background-color: #1b1938;
+}
+
+.text-container {
+  padding: 2.5rem;
+}
+
+/*  
+    ----------------------------------------------------- § TYPOGRAPHY
+*/
+.page__title {
+  display: none;
+}
+
+.card__meta__stat {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: bold;
+}
+
+.card__meta__title {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
+
+/*  
+    ----------------------------------------------------- § IMAGES
+*/
+.card__picture-container source,
+.card__picture-container img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
