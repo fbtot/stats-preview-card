@@ -20,3 +20,19 @@ $base-font-size: 15px;
 html {
   font-size: $base-font-size;
 }
+
+body {
+  background-color: $dark-blue;
+  color: $slightly-transparent-white;
+  font-family: $body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: $accent-font;
+
+  span {
+    color: $violet;
+  }
+}

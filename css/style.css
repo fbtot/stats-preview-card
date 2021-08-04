@@ -6,4 +6,19 @@ html {
   font-size: 15px;
 }
 
+body {
+  background-color: #090b1a;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: "Lexend Deca", sans-serif;
+}
+h2 span {
+  color: #aa5cdb;
+}
+
 /*# sourceMappingURL=style.css.map */
