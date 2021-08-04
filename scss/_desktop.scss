@@ -1,0 +1,34 @@
+@use "_variables" as *;
+
+/*  
+    ----------------------------------------------------- § DESKTOP
+*/
+@media screen and(min-width:$desktop-width) {
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  .card {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .card__picture-container {
+    source,
+    img {
+    }
+  } /* fine card__picture-container */
+
+  .text-container {
+    padding: 5rem;
+  }
+
+  .card__text {
+    margin-bottom: 4rem;
+  }
+
+  .card__meta {
+    display: inline-block;
+    margin: 0 5rem 0 0;
+  }
+} /* Fine media query */

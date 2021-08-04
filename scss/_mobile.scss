@@ -44,10 +44,11 @@ h2 {
 }
 
 .card-container {
-  border-radius: 20px;
+  border-radius: 0.5rem;
   overflow: hidden;
   display: block;
   width: 90%;
+  max-width: 1110px;
 }
 
 .card {

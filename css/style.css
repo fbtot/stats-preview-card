@@ -44,10 +44,11 @@ h2 span {
 }
 
 .card-container {
-  border-radius: 20px;
+  border-radius: 0.5rem;
   overflow: hidden;
   display: block;
   width: 90%;
+  max-width: 1110px;
 }
 
 .card {
@@ -106,5 +107,34 @@ h2 span {
   opacity: 80%;
   display: block;
 }
+
+/*  
+    ----------------------------------------------------- § DESKTOP
+*/
+@media screen and (min-width: 800px) {
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  .card {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  /* fine card__picture-container */
+  .text-container {
+    padding: 5rem;
+  }
+
+  .card__text {
+    margin-bottom: 4rem;
+  }
+
+  .card__meta {
+    display: inline-block;
+    margin: 0 5rem 0 0;
+  }
+}
+/* Fine media query */
 
 /*# sourceMappingURL=style.css.map */
