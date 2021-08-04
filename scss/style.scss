@@ -92,8 +92,21 @@ h2 {
 */
 
 .card__picture-container {
+  background-color: $violet;
+  // outline: 1px solid red;
+  display: block;
+  overflow: hidden;
   source,
   img {
     width: 100%;
+    mix-blend-mode: multiply;
+    opacity: 80%;
+    display: block;
   }
+}
+
+source {
+  display: none;
+}
+@media screen and(max-width:800px) {
 }

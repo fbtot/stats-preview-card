@@ -75,9 +75,21 @@ h2 span {
 /*  
     ----------------------------------------------------- § IMAGES
 */
+.card__picture-container {
+  background-color: #aa5cdb;
+  display: block;
+  overflow: hidden;
+}
 .card__picture-container source,
 .card__picture-container img {
   width: 100%;
+  mix-blend-mode: multiply;
+  opacity: 80%;
+  display: block;
+}
+
+source {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
