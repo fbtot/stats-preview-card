@@ -67,6 +67,7 @@ body {
 .card__text-container {
   text-align: center;
   padding: 0 2.3rem 0.8rem 2.3rem;
+  max-width: 600px;
 }
 
 .card__title {
@@ -108,7 +109,7 @@ body {
 /*  
     ----------------------------------------------------- § DESKTOP
 */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1080px) {
   .card-container {
     max-width: 1000px;
   }
