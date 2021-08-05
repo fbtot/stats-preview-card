@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/stats-preview-card-with-scss-and-flexbox-RJ79VOkrp)
 - [Live site](https://filippo-b.github.io/stats-preview-card/)
 
 ## My process
