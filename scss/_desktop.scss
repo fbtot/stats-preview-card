@@ -18,14 +18,18 @@
 
   .card__picture-container {
     grid-column: 2;
-    width: max-content;
+    // max-width: max-content;
     // source,
     // img {
     // }
   } /* fine card__picture-container */
 
+  .card__title {
+    margin-bottom: 1.7rem;
+  }
+
   .text-container {
-    padding: 4.8rem 4.8rem 0 4.8rem;
+    padding: 4.2rem 4.8rem 0 4.8rem;
   }
 
   .card__text {
@@ -42,3 +46,9 @@
     }
   }
 } /* Fine media query */
+
+@media screen and(min-width:$desktop-width) and(max-width:1100px) {
+  .card__picture-container {
+    width: max-content;
+  }
+}

@@ -56,6 +56,7 @@ h2 {
   background-color: $dark-desaturated-blue;
   display: grid;
   grid-auto-flow: row;
+  min-width: 500px;
 }
 
 .text-container {
