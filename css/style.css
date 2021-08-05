@@ -8,7 +8,7 @@
 }
 
 .card__text, .card__title {
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 html {
@@ -69,6 +69,7 @@ body {
   font-size: 1.9rem;
   margin-bottom: 1.1rem;
   color: white;
+  font-family: "Inter", sans-serif;
 }
 .card__title span {
   color: #aa5cdb;
@@ -78,6 +79,7 @@ body {
   line-height: 1.65em;
   margin-bottom: 2.6rem;
   color: rgba(255, 255, 255, 0.75);
+  font-family: "Inter", sans-serif;
 }
 
 .card__meta {
@@ -97,6 +99,45 @@ body {
   font-size: 0.8rem;
   letter-spacing: 0.06em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 600px) {
+  .card-container {
+    max-width: 1000px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card__picture-container {
+    margin: 0;
+  }
+  .card__picture-container img,
+.card__picture-container source {
+    width: 485px;
+  }
+
+  .card__title {
+    font-size: 2.2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .card__text-container {
+    text-align: left;
+    padding: 2.5rem 4.3rem;
+  }
+
+  .card__text {
+    line-height: 1.5em;
+    letter-spacing: -0.05em;
+    padding-right: 5rem;
+  }
+
+  .card__meta {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

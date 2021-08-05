@@ -1,1 +1,41 @@
 @use "_variables" as *;
+
+@media screen and(min-width:600px) {
+  .card-container {
+    max-width: 1000px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card__picture-container {
+    margin: 0;
+
+    img,
+    source {
+      width: 485px;
+    }
+  }
+
+  .card__title {
+    font-size: 2.2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .card__text-container {
+    text-align: left;
+    padding: 2.5rem 4.3rem;
+  }
+
+  .card__text {
+    line-height: 1.5em;
+    letter-spacing: -0.05em;
+    padding-right: 5rem;
+  }
+
+  .card__meta {
+    display: inline-block;
+  }
+}
