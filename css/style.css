@@ -1,16 +1,16 @@
 @charset "UTF-8";
-/* 
-    ----------------------------------------------------- § HTML
-*/
-.card__meta__title, .card__meta__stat, .card__picture-container {
+.card__picture-container, .card__meta__stat, .card__meta__title {
   margin: 0;
   padding: 0;
 }
 
-.card__text, .card__title {
+.card__title, .card__text {
   letter-spacing: -0.01em;
 }
 
+/* 
+    ----------------------------------------------------- § HTML
+*/
 html {
   font-size: 15px;
 }
@@ -133,10 +133,25 @@ body {
     line-height: 1.5em;
     letter-spacing: -0.05em;
     padding-right: 5rem;
+    margin-bottom: 4.5rem;
   }
 
   .card__meta {
     display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .card__meta:not(:last-of-type) {
+    margin-right: 3.8rem;
+  }
+
+  .card__meta__stat {
+    font-size: 1.4rem;
+    margin-bottom: 0.2em;
+  }
+
+  .card__meta__title {
+    font-size: 0.7rem;
   }
 }
 

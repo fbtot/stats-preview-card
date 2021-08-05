@@ -33,9 +33,25 @@
     line-height: 1.5em;
     letter-spacing: -0.05em;
     padding-right: 5rem;
+    margin-bottom: 4.5rem;
   }
 
   .card__meta {
     display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    &:not(:last-of-type) {
+      margin-right: 3.8rem;
+    }
+  }
+
+  .card__meta__stat {
+    font-size: 1.4rem;
+    margin-bottom: 0.2em;
+  }
+
+  .card__meta__title {
+    font-size: 0.7rem;
   }
 }
