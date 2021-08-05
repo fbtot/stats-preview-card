@@ -1,1 +1,107 @@
 @use "_variables" as *;
+
+/* 
+    ----------------------------------------------------- § HTML
+*/
+%m0p0 {
+  margin: 0;
+  padding: 0;
+}
+
+%letter-spacing {
+  letter-spacing: -0.02em;
+}
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $slightly-transparent-white;
+  background-color: $dark-blue;
+  font-family: $body-font;
+  box-sizing: border-box;
+  padding: 5.8rem 5% 0;
+}
+
+.page__title {
+  display: none;
+}
+
+/*  
+    ----------------------------------------------------- § STRUCTURE
+*/
+
+.card-container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 329px; // provvisorio
+}
+
+.card {
+  background: $dark-desaturated-blue;
+}
+
+/*  
+----------------------------------------------------- § IMG
+*/
+
+.card__picture-container {
+  @extend %m0p0;
+  display: block;
+  background: $violet;
+  margin-bottom: 2.5rem;
+
+  source,
+  img {
+    display: block;
+    width: 100%;
+    mix-blend-mode: multiply;
+    opacity: 90%;
+  }
+}
+
+/*  
+    ----------------------------------------------------- § TYPOGRAPHY
+*/
+
+.card__text-container {
+  text-align: center;
+  padding: 0 2.3rem 0.8rem 2.3rem;
+
+  span {
+    color: $violet;
+  }
+}
+
+.card__title {
+  @extend %letter-spacing;
+  font-size: 1.9rem;
+  margin-bottom: 1.1rem;
+}
+
+.card__text {
+  @extend %letter-spacing;
+  line-height: 1.65em;
+  margin-bottom: 2.6rem;
+}
+
+.card__meta {
+  margin-bottom: 1.75rem;
+}
+
+.card__meta__stat {
+  @extend %m0p0;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 0.35em;
+}
+
+.card__meta__title {
+  @extend %m0p0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}

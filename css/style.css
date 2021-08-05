@@ -1,3 +1,98 @@
+@charset "UTF-8";
+/* 
+    ----------------------------------------------------- § HTML
+*/
+.card__meta__title, .card__meta__stat, .card__picture-container {
+  margin: 0;
+  padding: 0;
+}
 
+.card__text, .card__title {
+  letter-spacing: -0.02em;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #090b1a;
+  font-family: "Lexend Deca", sans-serif;
+  box-sizing: border-box;
+  padding: 5.8rem 5% 0;
+}
+
+.page__title {
+  display: none;
+}
+
+/*  
+    ----------------------------------------------------- § STRUCTURE
+*/
+.card-container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 329px;
+}
+
+.card {
+  background: #1b1938;
+}
+
+/*  
+----------------------------------------------------- § IMG
+*/
+.card__picture-container {
+  display: block;
+  background: #aa5cdb;
+  margin-bottom: 2.5rem;
+}
+.card__picture-container source,
+.card__picture-container img {
+  display: block;
+  width: 100%;
+  mix-blend-mode: multiply;
+  opacity: 90%;
+}
+
+/*  
+    ----------------------------------------------------- § TYPOGRAPHY
+*/
+.card__text-container {
+  text-align: center;
+  padding: 0 2.3rem 0.8rem 2.3rem;
+}
+.card__text-container span {
+  color: #aa5cdb;
+}
+
+.card__title {
+  font-size: 1.9rem;
+  margin-bottom: 1.1rem;
+}
+
+.card__text {
+  line-height: 1.65em;
+  margin-bottom: 2.6rem;
+}
+
+.card__meta {
+  margin-bottom: 1.75rem;
+}
+
+.card__meta__stat {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 0.35em;
+}
+
+.card__meta__title {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
 
 /*# sourceMappingURL=style.css.map */
