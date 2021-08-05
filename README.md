@@ -12,16 +12,16 @@ Users should be able to:
 
 ### Screenshot desktop
 
-![](images/screenshot-desktop.jpg)
+![](images/screenshot-desktop.jpeg)
 
 ### Screenshot mobile
 
-![](images/screenshot-mobile.jpg)
+![](images/screenshot-mobile.jpeg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live site](https://filippo-b.github.io/stats-preview-card/)
 
 ## My process
 
