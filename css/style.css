@@ -22,7 +22,11 @@ body {
   background-color: #090b1a;
   font-family: "Lexend Deca", sans-serif;
   box-sizing: border-box;
-  padding: 5.8rem 5% 0;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .page__title {
@@ -30,7 +34,7 @@ body {
 }
 
 /*  
-    ----------------------------------------------------- § STRUCTURE
+----------------------------------------------------- § STRUCTURE
 */
 .card-container {
   border-radius: 0.5rem;
@@ -54,7 +58,7 @@ body {
   display: block;
   width: 100%;
   mix-blend-mode: multiply;
-  opacity: 90%;
+  opacity: 75%;
 }
 
 /*  
@@ -101,6 +105,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/*  
+    ----------------------------------------------------- § DESKTOP
+*/
 @media screen and (min-width: 600px) {
   .card-container {
     max-width: 1000px;
