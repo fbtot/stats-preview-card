@@ -35,7 +35,6 @@ body {
 .card-container {
   border-radius: 0.5rem;
   overflow: hidden;
-  width: 329px;
 }
 
 .card {
@@ -65,18 +64,20 @@ body {
   text-align: center;
   padding: 0 2.3rem 0.8rem 2.3rem;
 }
-.card__text-container span {
-  color: #aa5cdb;
-}
 
 .card__title {
   font-size: 1.9rem;
   margin-bottom: 1.1rem;
+  color: white;
+}
+.card__title span {
+  color: #aa5cdb;
 }
 
 .card__text {
   line-height: 1.65em;
   margin-bottom: 2.6rem;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .card__meta {
@@ -84,15 +85,18 @@ body {
 }
 
 .card__meta__stat {
+  font-family: "Inter", sans-serif;
   font-size: 1.6em;
   font-weight: bold;
   margin-bottom: 0.35em;
+  color: white;
 }
 
 .card__meta__title {
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*# sourceMappingURL=style.css.map */
